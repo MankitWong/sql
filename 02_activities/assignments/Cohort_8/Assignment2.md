@@ -54,7 +54,8 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1 SCD is updating the existing record that not focusing the history of the changes (Their relationship is one to one)
+Type 2 SCD is adding new record on every update that will keep the history of the change (Their relationship is one to many) 
 ```
 
 ***
